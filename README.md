@@ -1,1 +1,22 @@
 # VisualStudioApp
+
+This application measures and sums all selected lengths in Navisworks Simulate.
+
+## Overview
+
+When one or more elements are selected in Navisworks Simulate, this app measures the lengths of the selected items (for example, pipe runs, edges, or other linear geometry) and computes the total sum of those lengths.
+
+## Usage
+
+1. Open the model in Navisworks Simulate.
+2. Select the elements whose lengths you want to measure.
+3. Run the app/command provided by this project to calculate lengths for each selected item and display the total sum.
+
+## Notes
+
+- The measurement units used are the same as the Navisworks document units.
+- Ensure the selection contains linear geometry or geometry that your implementation can measure.
+
+## Further details
+
+If you need build instructions, API details, or example code snippets for integrating with the Navisworks API, request the specific platform (e.g., .NET/C#) and I will add them.
